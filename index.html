@@ -1,0 +1,1420 @@
+   
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Yikan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="overlay"></div>
+        <div class="search">
+            <div class="title-search">
+                <div class="title-search-content">Start typing and hit Enter</div>
+            </div>
+            <div class="form-search">
+
+                <div class="icon-search"><i class="fas fa-search"></i></div>
+                <input type="text" class="input-search" placeholder="Search anything" />
+            </div>
+            <div class="form-search-result">
+                <div class="search-result">
+                    <div class="search-request">You must enter at least 2 characters.</div>
+                </div>
+            </div>
+            <div class="close-search">
+                <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="bg-search"></div>
+        </div>
+        <div class="cart">
+            <div class="cart-heading">
+                <div class="cart-close-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class="cart-tittle">Shopping Cart</div>
+                <div class="cart-count">0</div>
+            </div>
+            <div class="empty-cart">
+                <div class="empty-cart-tittle">Your shopping bag is empty</div>
+                <div class="empty-cart-btn">Go to the shop</div>
+            </div>
+        </div>
+        <div class="authen-form">
+            <div class="login-form">
+                <div class="login-form-content">
+                    <div class="login-heading">
+                        <div class="login-heading-logo">
+                            <a href="#">
+                                <img src="./assets/img/header-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="login-heading-tittle">Great to have you back!</div>
+                    </div>
+                    <div class="authen-form-group">
+                        <div class="authen-input">
+                            <input type="text" class="email-input" placeholder="Email address">
+                        </div>
+                        <div class="authen-input">
+                            <input type="text" class="password-input" placeholder="Password">
+                        </div>
+                        <div class="authen-recoverpass">Forgot your password?</div>
+                        <button class="authen-btn">LOG IN</button>
+                        <div class="authen-relate">
+                            Don't have an account?
+                            <span class="switch-register-btn"> Register now</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="authen-close-modal">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <div class="authen-form">
+            <div class="register-form">
+                <div class="register-form-content">
+                    <div class="register-form-tittle">
+                        Register
+                    </div>
+                    <div class="authen-form-group">
+                        <div class="authen-input">
+                            <input type="text" class="email-input" placeholder="Email address">
+                        </div>
+                        <div class="authen-input">
+                            <input type="text" class="password-input" placeholder="Password">
+                        </div>
+                        <button class="authen-btn">REGISTER</button>
+                        <div class="authen-relate">
+                            <span class="switch-login-btn">Back to login</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="authen-close-modal">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="logo">
+                <img class="logo-img" src="./assets/img/header-logo.png" alt="">
+            </div>
+            <div class="header-options">
+                <div class="header-option-item">
+                    <div class="third after header-option">
+                        <span class="header-option-tab">HOME</span>
+                        <div class="home-dropdown dropdown">
+                            <div class="dropdown-blocklink">
+                                <div class="dropdown-blockcontent">
+                                    <img class="link-img" src="./assets/img/home1.jpg" alt="">
+                                    <div>
+                                        <a class="linked-text" href="">HOME 1</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown-blockcontent">
+                                    <img class="link-img" src="./assets/img/home2.jpg" alt="">
+                                    <div>
+                                        <a class="linked-text" href="">HOME 2</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown-blockcontent">
+                                    <img class="link-img" src="./assets/img/home3.jpg" alt="">
+                                    <div>
+                                        <a class="linked-text" href="">HOME 3</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown-blockcontent">
+                                    <img class="link-img" src="./assets/img/home4.jpg" alt="">
+                                    <div>
+                                        <a class="linked-text" href="">HOME 4</a>
+                                    </div>
+                                </div>
+                                <div class="dropdown-blockcontent">
+                                    <img class="link-img" src="./assets/img/home5.jpg" alt="">
+                                    <div>
+                                        <a class="linked-text" href="">HOME 5</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-option-item">
+                    <div class="third after header-option">
+                        <span class="header-option-tab">SHOP</span>
+                        <div class="dropdown">
+                            <div class="shop-dropdown">
+                                <div class="shop-dropdown-block">
+                                    <a class="dropdown-tittle">SHOP LAYOUTS</a>
+                                    <div class="dropdown-item"><span>Pagination</span></div>
+                                    <div class="dropdown-item"><span>Ajax Load More</span></div>
+                                    <div class="dropdown-item"><span>List View</span></div>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            Background Modern
+                                            <div class="state-option">
+                                                <span class="hot">HOT</span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <div class="dropdown-item"><span>Fullwwidth Layouts</span></div>
+                                    <div class="dropdown-item"><span>Sidebar Layouts</span></div>
+                                </div>
+                                <div class="shop-dropdown-block">
+                                    <a class="dropdown-tittle">SHOP HEADING</a>
+                                    <div class="dropdown-item"><span>Small Heading</span></div>
+                                    <div class="dropdown-item"><span>Banner Heading
+                                        <div class="state-option">
+                                            <span class="new">NEW</span>
+                                        </div>
+                                    </span></div>
+                                    <div class="dropdown-item"><span>Dark Heading</span></div>
+                                    <div class="dropdown-item"><span>Icon Category</span></div>
+                                    <div class="dropdown-item"><span>Mini Category</span></div>
+                                    <div class="dropdown-item"><span>Background</span></div>
+                                </div>
+                                <div class="shop-dropdown-block">
+                                    <a class="dropdown-tittle">FILTER LAYOUT</a>
+                                    <div class="dropdown-item"><span>Top Filter</span></div>
+                                    <div class="dropdown-item"><span>Drawer Filter</span></div>
+                                    <div class="dropdown-item"><span>Off Canvas Filter
+                                        <div class="state-option">
+                                            <span class="new">NEW</span>
+                                        </div>
+                                    </span></div>
+                                    <div class="dropdown-item"><span>Brand Filter</span></div>
+                                    <div class="dropdown-item"><span>Sticky Filter</span></div>
+                                    <div class="dropdown-item"><span>Acordition Filter
+                                        <div class="state-option">
+                                            <span class="hot">HOT</span>
+                                        </div>
+                                    </span></div>
+                                </div>
+                                <div class="shop-dropdown-block">
+                                    <a class="dropdown-tittle">PRODUCT LAYOUT</a>
+                                    <div class="dropdown-item"><span>Vertical Thumbnail
+                                        <div class="state-option">
+                                            <span class="hot">HOT</span>
+                                        </div>
+                                    </span></div>
+                                    <div class="dropdown-item"><span>Horizontal Thumbnail</span></div>
+                                    <div class="dropdown-item"><span>Sticky Details</span></div>
+                                    <div class="dropdown-item"><span>Sticky Center</span></div>
+                                    <div class="dropdown-item"><span>With Background
+                                        <div class="state-option">
+                                            <span class="new">NEW</span>
+                                        </div>
+                                    </span></div>
+                                    <div class="dropdown-item"><span>Gallery Basic</span></div>
+                                    <div class="dropdown-item"><span>Slider Large</span></div>
+                                    <div class="dropdown-item"><span>Slide Center</span></div>
+                                    <div class="dropdown-item"><span>Slide Gallery</span></div>
+                                    <div class="dropdown-item"><span>Extra Sidebar
+                                        <div class="state-option">
+                                            <span class="new">NEW</span>
+                                        </div>
+                                    </span></div>
+                                    <div class="dropdown-item"><span>Gallery Modern
+                                        <div class="state-option">
+                                            <span class="hot">HOT</span>
+                                        </div>
+                                    </span></div>
+                                </div>
+                                <div class="shop-dropdown-block">
+                                    <a class="dropdown-tittle">PRODUCT TYPE</a>
+                                    <div class="dropdown-item"><span>Simple</span></div>
+                                    <div class="dropdown-item"><span>Variable Color
+                                        <div class="state-option">
+                                            <span class="hot">HOT</span>
+                                        </div>
+                                    </span></div>
+                                    <div class="dropdown-item"><span>Variable Select</span></div>
+                                    <div class="dropdown-item"><span>External / Affiliate
+                                        <div class="state-option">
+                                            <span class="new">NEW</span>
+                                        </div>
+                                    </span></div>
+                                    <div class="dropdown-item"><span>Boosted Sale</span></div>
+                                </div>
+                                <div class="shop-dropdown-block">
+                                    <a class="dropdown-tittle">PRODUCT EXTENDED</a>
+                                    <div class="dropdown-item"><span>Variable Image</span></div>
+                                    <div class="dropdown-item"><span>Countdown</span></div>
+                                    <div class="dropdown-item"><span>Featured Video</span></div>
+                                    <div class="dropdown-item"><span>Trust Sale</span></div>
+                                    <div class="dropdown-item"><span>Pramo Text</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="state-option">
+                        <span class="hot">HOT</span>
+                    </div>
+                </div>
+                <div class="header-option-item">
+                    <div class="third after header-option">
+                        <span class="header-option-tab">FEATURED</span>
+                        <div class="dropdown-featured">
+                            <div class="featured-dropdown-block">
+                                <div class="featured-dropdown-content">
+                                    <a class="dropdown-tittle">9 PRODUCT HOVER</a>
+                                    <div class="dropdown-item"><span>Product Hover Style 1</span></div>
+                                    <div class="dropdown-item"><span>Product Hover Style 2</span></div>
+                                    <div class="dropdown-item"><span>Product Hover Style 3</span></div>
+                                    <div class="dropdown-item"><span>Product Hover Style 4</span></div>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            All Style
+                                            <div class="state-option">
+                                                <span class="hot">HOT</span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="featured-dropdown-content">
+                                    <a class="dropdown-tittle">THEME ELEMENT</a>
+                                    <div class="dropdown-item"><span>Ajax Search</span></div>
+                                    <div class="dropdown-item"><span>Ajax Minicart</span></div>
+                                    <div class="dropdown-item"><span>Recently Products</span></div>
+                                    <div class="dropdown-item"><span>Social Share</span></div>
+                                </div>
+                            </div>
+                            <div class="featured-dropdown-additional">
+                                <img class="featured-dropdown-img" src="./assets/img/featured-banner.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-option-item">
+                    <div class="third after header-option">
+                        <span class="header-option-tab">PAGES</span>
+                        <div class="dropdown-pages">
+                            <div class="pages-dropdown-block">
+                                <div class="pages-dropdown-content">
+                                    <a class="dropdown-tittle">DEMO LAYOUT</a>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            Full Screen
+                                            <div class="state-option">
+                                                <span class="new">NEW</span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <div class="dropdown-item"><span>Simple</span></div>
+                                    <div class="dropdown-item"><span>Heading Background</span></div>
+                                </div>
+                                <div class="pages-dropdown-content">
+                                    <a class="dropdown-tittle">PRE - BUILD PAGES</a>
+                                    <div class="dropdown-item"><span>About Us</span></div>
+                                    <div class="dropdown-item"><span>About Us 2</span></div>
+                                    <div class="dropdown-item"><span>Contact Us</span></div>
+                                    <div class="dropdown-item"><span>FAQs</span></div>
+                                    <div class="dropdown-item"><span>404 Page</span></div>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            Login/Register
+                                            <div class="state-option">
+                                                <span class="new">NEW</span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="pages-dropdown-content">
+                                    <a class="dropdown-tittle">ECOMERCE</a>
+                                    <div class="dropdown-item"><span>My Account</span></div>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            Cart
+                                            <div class="state-option">
+                                                <span class="hot">HOT</span>
+                                            </div>
+                                        </span>
+                                    </div>  
+                                    <div class="dropdown-item"><span>Checkout</span></div>
+                                    <div class="dropdown-item"><span>Wishlist</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-option-item">
+                    <div class="third after header-option">
+                        <span class="header-option-tab">BLOGS</span>
+                        <div class="dropdown-blogs">
+                            <div class="blogs-dropdown-block">
+                                <div class="blogs-dropdown-content">
+                                    <a class="dropdown-tittle">LAYOUT</a>
+                                    <div class="dropdown-item"><span>No Sidebar</span></div>
+                                    <div class="dropdown-item"><span>Left Sidebar</span></div>
+                                    <div class="dropdown-item"><span>Right Sidebar</span></div>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            Standard
+                                            <div class="state-option">
+                                                <span class="hot">HOT</span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <div class="dropdown-item"><span>Classic</span></div>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            Grid
+                                            <div class="state-option">
+                                                <span class="new">NEW</span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="blogs-dropdown-content">
+                                    <a class="dropdown-tittle">SINGLE POST</a>
+                                    <div class="dropdown-item"><span>No Sidebar</span></div>
+                                    <div class="dropdown-item"><span>Left Sidebar</span></div>
+                                    <div class="dropdown-item"><span>Right Sidebar</span></div>
+                                    <div class="dropdown-item"><span>Audio</span></div>
+                                    <div class="dropdown-item">
+                                        <span>
+                                            Video
+                                            <div class="state-option">
+                                                <span class="hot">HOT</span>
+                                            </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="blogs-dropdown-content">
+                                    <div class="blogs-dropdown-menu">
+                                        <a class="dropdown-tittle">NEW PRODUCTS</a>
+                                        <div class="blogs-dropdown-button">
+                                            <i class="pre-dropdown-product fas fa-angle-left"></i>
+                                            <i class="next-dropdown-product fas fa-angle-right"></i>
+                                        </div>
+                                    </div>
+                                    <div class="blogs-dropdown-list">    
+                                        <div class="dropdown-item">
+                                            <div class="dropdown-product">
+                                                <div class="dropdown-product-img">
+                                                    <img src="./assets/img/aero-wave-19.jpg" alt="Aero wave 19">
+                                                </div>
+                                                <div class="dropdown-product-infor">
+                                                    <div class="dropdown-product-name">Aero wave 19</div>
+                                                    <div class="dropdown-product-price">
+                                                        <div class="dropdown-product-originprice">$156.00</div>
+                                                        <div class="dropdown-product-saleprice">$124.95</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <div class="dropdown-product">
+                                                <div class="dropdown-product-img">
+                                                    <img src="./assets/img/On-Cloudflyer-Men.jpg" alt="On Cloudflyer Men">
+                                                </div>
+                                                <div class="dropdown-product-infor">
+                                                    <div class="dropdown-product-name">On Cloudflyer Men</div>
+                                                    <div class="dropdown-product-price">
+                                                        <div class="dropdown-product-originprice">$213.00</div>
+                                                        <div class="dropdown-product-saleprice">$169.95</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <div class="dropdown-product">
+                                                <div class="dropdown-product-img">
+                                                    <img src="./assets/img/Triumph-19-Women.jpg" alt="Triumph 19 Women">
+                                                </div>
+                                                <div class="dropdown-product-infor">
+                                                    <div class="dropdown-product-name">Triumph 19 Women</div>
+                                                    <div class="dropdown-product-price">
+                                                        <div class="dropdown-product-originprice">$215.00</div>
+                                                        <div class="dropdown-product-saleprice">$169.95</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <div class="dropdown-product">
+                                                <div class="dropdown-product-img">
+                                                    <img src="./assets/img/Triumph-19-Women.jpg" alt="Triumph 19 Women">
+                                                </div>
+                                                <div class="dropdown-product-infor">
+                                                    <div class="dropdown-product-name">Triumph 19 Women</div>
+                                                    <div class="dropdown-product-price">
+                                                        <div class="dropdown-product-originprice">$215.00</div>
+                                                        <div class="dropdown-product-saleprice">$169.95</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <div class="dropdown-product">
+                                                <div class="dropdown-product-img">
+                                                    <img src="./assets/img/Triumph-19-Women.jpg" alt="Triumph 19 Women">
+                                                </div>
+                                                <div class="dropdown-product-infor">
+                                                    <div class="dropdown-product-name">Triumph 19 Women</div>
+                                                    <div class="dropdown-product-price">
+                                                        <div class="dropdown-product-originprice">$215.00</div>
+                                                        <div class="dropdown-product-saleprice">$169.95</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <div class="dropdown-product">
+                                                <div class="dropdown-product-img">
+                                                    <img src="./assets/img/Triumph-19-Women.jpg" alt="Triumph 19 Women">
+                                                </div>
+                                                <div class="dropdown-product-infor">
+                                                    <div class="dropdown-product-name">Triumph 19 Women</div>
+                                                    <div class="dropdown-product-price">
+                                                        <div class="dropdown-product-originprice">$215.00</div>
+                                                        <div class="dropdown-product-saleprice">$169.95</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="dropdown-item">
+                                            <div class="dropdown-product">
+                                                <div class="dropdown-product-img">
+                                                    <img src="./assets/img/Triumph-19-Women.jpg" alt="Triumph 19 Women">
+                                                </div>
+                                                <div class="dropdown-product-infor">
+                                                    <div class="dropdown-product-name">Triumph 19 Women</div>
+                                                    <div class="dropdown-product-price">
+                                                        <div class="dropdown-product-originprice">$215.00</div>
+                                                        <div class="dropdown-product-saleprice">$169.95</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="icon-options">
+                <div class="icon-option-items">
+                    <ion-icon class="search-icon" name="search-outline"></ion-icon>
+                    <ion-icon class="authen-icon" name="person-outline"></ion-icon>
+                    <ion-icon name="heart-outline"></ion-icon>
+                    <ion-icon class="cart-header-icon" name="clipboard-outline"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-block w-100 banner">
+                        <div class="background">
+                            <img class="banner-background" src="./assets/img/banner-home.jpg" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="small-text">NEW!</p>
+                            <div class="banner-tittle">MINZUNO INDOOR</div>
+                            <div class="banner-desc">
+                                <p>For players seeking a resilient K-Leather futsal shoe.</p>
+                                <p>Especially suited to players with great technique and speed.</p>
+                            </div>
+                            <div class="banner-btn">
+                                <button>SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-block w-100 banner">
+                        <div class="background">
+                            <img class="banner-background" src="./assets/img/banner-home-2.jpg" alt="">
+                        </div>
+                        <div class="inner">
+                            <p class="small-text">NEW COLLECTION</p>
+                            <div class="banner-tittle">ASICS GEL KAYANO 28</div>
+                            <div class="banner-desc">
+                                <p>A good support shoe that comes with an updated softer</p>
+                                <p> and more flexible design but remains heavy.</p>
+                            </div>
+                            <div class="banner-btn">
+                                <button>SHOP NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flash-sale">
+            <div class="grid">
+                <div class="flash-sale-tittle content-tittle">
+                    <a href="">MOTIVATION</a>
+                </div>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="d-block w-100 product-list">
+                                <div class="row">
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>20%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/aero-wave-19.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">Aero wave 19</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$156.00</div>
+                                                <div class="product-sale-price">$124.95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>21%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/On-Cloudflyer-Men.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">On Cloudflyer Man</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$213.00</div>
+                                                <div class="product-sale-price">$169.95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>21%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/Triumph-19-Women.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">Triumph 19 Women</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$215.00</div>
+                                                <div class="product-sale-price">$169.95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>26%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/Dita.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">On Cloudflyer Man</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$213.00</div>
+                                                <div class="product-sale-price">$169.95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-block w-100 product-list">
+                                <div class="row">
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>12%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/babolat.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">Aero wave 19</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$135.00</div>
+                                                <div class="product-sale-price">$119.95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>34%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/Vapor.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">On Cloudflyer Man</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$135.00</div>
+                                                <div class="product-sale-price">$90.00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>25%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/lightning.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">Triumph 19 Women</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$178.00</div>
+                                                <div class="product-sale-price">$134.95</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-3">
+                                        <div class="product-item">
+                                            <div class="product-img">
+                                                <div class="product-sale-tag">
+                                                    <span>19%</span>
+                                                </div>
+                                                <a href="#">
+                                                    <img class="product-img" src="./assets/img/INK.jpg" alt="">
+                                                </a>
+                                                <div class="product-icon-action">
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                                    </div>
+                                                    <div class="product-icon-item">
+                                                        <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                                    </div>
+                                                </div>
+                                                <div class="product-switch-dot">
+                                                    <div class="product-dot black"></div>
+                                                    <div class="product-dot"></div>
+                                                </div>
+                                            </div>
+                                            <div class="product-name">On Cloudflyer Man</div>
+                                            <div class="product-price">
+                                                <div class="product-origin-price">$158.00</div>
+                                                <div class="product-sale-price">$128.00</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="sport-show">
+            <div class="grid">
+                <div class="sport-show-container">
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="sport-show-item">
+                                <img src="./assets/img/basketball.jpg" alt="">
+                                <div class="sport-show-content-wrapper">
+                                    <div class="sport-show-content">
+                                        <div class="sport-show-price">$12</div>
+                                        <div class="sport-show-tittle">
+                                            Basketball Shoes
+                                            <br>
+                                            The Shadow
+                                        </div>
+                                        <div class="sport-show-view">
+                                            View More
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="sport-show-item">
+                                <img src="./assets/img/volleyball.jpg" alt="">
+                                <div class="sport-show-content-wrapper">
+                                    <div class="sport-show-content">
+                                        <div class="sport-show-price">From $11</div>
+                                        <div class="sport-show-tittle">
+                                            NCAA Volleyball
+                                            <br>
+                                            Selection Show
+                                        </div>
+                                        <div class="sport-show-view">
+                                            View More
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="sport-show-item">
+                                <img src="./assets/img/tennis.jpg" alt="">
+                                <div class="sport-show-content-wrapper">
+                                    <div class="sport-show-content">
+                                        <div class="sport-show-price">From $19</div>
+                                        <div class="sport-show-tittle">
+                                            The Best Tennis
+                                            <br>
+                                            Shoes On Twitter
+                                        </div>
+                                        <div class="sport-show-view">
+                                            View More
+                                            <i class="fas fa-angle-double-right"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="your-choice">
+            <div class="grid">
+                <div class="flash-sale-tittle content-tittle">
+                    <a href="">IT'S YOUR CHOICE</a>
+                </div>
+                <div class="flash-sale-list">
+                    <div class="product-list">
+                        <div class="row">
+                            <div class="col l-3">
+                                <div class="product-item">
+                                    <div class="product-img">
+                                        <div class="product-sale-tag">
+                                            <span>18%</span>
+                                        </div>
+                                        <a href="#">
+                                            <img class="product-img" src="./assets/img/ultralight.jpg" alt="">
+                                        </a>
+                                        <div class="product-icon-action">
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                            </div>
+                                        </div>
+                                        <div class="product-switch-dot">
+                                            <div class="product-dot black"></div>
+                                            <div class="product-dot"></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-name">Ultralight Flash</div>
+                                    <div class="product-price">
+                                        <div class="product-origin-price">$67.00</div>
+                                        <div class="product-sale-price">$54.95</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="product-item">
+                                    <div class="product-img">
+                                        <div class="product-sale-tag">
+                                            <span>20%</span>
+                                        </div>
+                                        <a href="#">
+                                            <img class="product-img" src="./assets/img/top-crew-man.jpg" alt="">
+                                        </a>
+                                        <div class="product-icon-action">
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                            </div>
+                                        </div>
+                                        <div class="product-switch-dot">
+                                            <div class="product-dot black"></div>
+                                            <div class="product-dot"></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-name">TOP CREW MEN</div>
+                                    <div class="product-price">
+                                        <div class="product-origin-price">$67.00</div>
+                                        <div class="product-sale-price">$54.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="product-item">
+                                    <div class="product-img">
+                                        <div class="product-sale-tag">
+                                            <span>12%</span>
+                                        </div>
+                                        <a href="#">
+                                            <img class="product-img" src="./assets/img/core-tee.jpg" alt="">
+                                        </a>
+                                        <div class="product-icon-action">
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                            </div>
+                                        </div>
+                                        <div class="product-switch-dot">
+                                            <div class="product-dot black"></div>
+                                            <div class="product-dot"></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-name">RONHILL Core Tee</div>
+                                    <div class="product-price">
+                                        <div class="product-origin-price">$25.00</div>
+                                        <div class="product-sale-price">$22.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="product-item">
+                                    <div class="product-img">
+                                        <div class="product-sale-tag">
+                                            <span>27%</span>
+                                        </div>
+                                        <a href="#">
+                                            <img class="product-img" src="./assets/img/active-spanie.jpg" alt="">
+                                        </a>
+                                        <div class="product-icon-action">
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                            </div>
+                                            <div class="product-icon-item">
+                                                <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                            </div>
+                                        </div>
+                                        <div class="product-switch-dot">
+                                            <div class="product-dot black"></div>
+                                            <div class="product-dot"></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-name">ODLO Active Spine</div>
+                                    <div class="product-price">
+                                        <div class="product-origin-price">$67.00</div>
+                                        <div class="product-sale-price">$49.00</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-3">
+                            <div class="product-item">
+                                <div class="product-img">
+                                    <div class="product-sale-tag">
+                                        <span>20%</span>
+                                    </div>
+                                    <a href="#">
+                                        <img class="product-img" src="./assets/img/inov8-women.jpg" alt="">
+                                    </a>
+                                    <div class="product-icon-action">
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-switch-dot">
+                                        <div class="product-dot black"></div>
+                                        <div class="product-dot"></div>
+                                    </div>
+                                </div>
+                                <div class="product-name">INOV-8 Women</div>
+                                <div class="product-price">
+                                    <div class="product-origin-price">$156.00</div>
+                                    <div class="product-sale-price">$124.95</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="product-item">
+                                <div class="product-img">
+                                    <div class="product-sale-tag">
+                                        <span>23%</span>
+                                    </div>
+                                    <a href="#">
+                                        <img class="product-img" src="./assets/img/Ciele-Athletics.jpg" alt="">
+                                    </a>
+                                    <div class="product-icon-action">
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-switch-dot">
+                                        <div class="product-dot black"></div>
+                                        <div class="product-dot"></div>
+                                    </div>
+                                </div>
+                                <div class="product-name">Ciele Athletics</div>
+                                <div class="product-price">
+                                    <div class="product-origin-price">$45.00</div>
+                                    <div class="product-sale-price">$34.95</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="product-item">
+                                <div class="product-img">
+                                    <div class="product-sale-tag">
+                                        <span>15%</span>
+                                    </div>
+                                    <a href="#">
+                                        <img class="product-img" src="./assets/img/2IN1-Short-Women.jpg" alt="">
+                                    </a>
+                                    <div class="product-icon-action">
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-switch-dot">
+                                        <div class="product-dot black"></div>
+                                        <div class="product-dot"></div>
+                                    </div>
+                                </div>
+                                <div class="product-name">2IN1 Short Women</div>
+                                <div class="product-price">
+                                    <div class="product-origin-price">$28.00</div>
+                                    <div class="product-sale-price">$24.00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="product-item">
+                                <div class="product-img">
+                                    <div class="product-sale-tag">
+                                        <span>18%</span>
+                                    </div>
+                                    <a href="#">
+                                        <img class="product-img" src="./assets/img/2IN1-Short-men.jpg" alt="">
+                                    </a>
+                                    <div class="product-icon-action">
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 784.238,1668.15 c 92.879,-92.87 92.879,-243.43 0,-336.3 -92.883,-92.89 -243.437,-92.89 -336.316,0 -92.883,92.87 -92.883,243.43 0,336.3 92.879,92.89 243.433,92.89 336.316,0"></path><path id="path16" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 2572.08,1668.15 c 92.88,-92.87 92.88,-243.43 0,-336.3 -92.87,-92.89 -243.44,-92.89 -336.31,0 -92.88,92.87 -92.88,243.43 0,336.3 92.87,92.89 243.44,92.89 336.31,0"></path><path id="path18" style="/* fill:#231f20; */fill-opacity:1;fill-rule:nonzero;stroke:none;" d="m 1678.15,1668.15 c 92.89,-92.87 92.89,-243.43 0,-336.3 -92.87,-92.89 -243.43,-92.89 -336.3,0 -92.89,92.87 -92.89,243.43 0,336.3 92.87,92.89 243.43,92.89 336.3,0"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 1312.7,795.5 c -472.7,0 -857.204,384.3 -857.204,856.7 0,472.7 384.504,857.2 857.204,857.2 472.7,0 857.3,-384.5 857.3,-857.2 0,-472.4 -384.6,-856.7 -857.3,-856.7 z M 2783.9,352.699 2172.7,963.898 c 155.8,194.702 241.5,438.602 241.5,688.302 0,607.3 -494.1,1101.4 -1101.5,1101.4 -607.302,0 -1101.399,-494.1 -1101.399,-1101.4 0,-607.4 494.097,-1101.501 1101.399,-1101.501 249.8,0 493.5,85.5 687.7,241 L 2611.7,181 c 23,-23 53.6,-35.699 86.1,-35.699 32.4,0 63,12.699 86,35.699 23.1,22.801 35.8,53.301 35.8,85.898 0,32.602 -12.7,63 -35.7,85.801"></path></g></g></svg>
+                                        </div>
+                                        <div class="product-icon-item">
+                                            <svg class="product-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" height="20" width="20" id="svg2" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xml:space="preserve"><metadata id="metadata8"><rdf><work rdf:about=""><format>image/svg+xml</format><type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></type></work></rdf></metadata><defs id="defs6"></defs><g transform="matrix(1.3333333,0,0,-1.3333333,0,400)" id="g10"><g transform="scale(0.1)" id="g12"><path id="path14" style="fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 903,2424.4 c 157.9,0 306.4,-61.5 418.1,-173.1 l 134.8,-134.9 c 20.7,-20.6 48.1,-32 77.1,-32 29,0 56.4,11.4 77,32 l 133.7,133.7 c 111.7,111.6 259.9,173.1 417.5,173.1 156.91,0 305,-61.3 416.8,-172.5 111.2,-111.3 172.5,-259.5 172.5,-417.5 0.6,-157.3 -60.69,-305.5 -172.5,-417.4 L 1531.5,373.5 487.402,1417.6 c -111.601,111.7 -173.105,259.9 -173.105,417.5 0,158.1 61.199,306.1 172.5,416.8 111.308,111.2 259.101,172.5 416.203,172.5 z m 1829.7,-19.6 c 0,0 0,0 -0.1,0 -152.4,152.4 -355.1,236.3 -570.9,236.3 -215.7,0 -418.7,-84.1 -571.5,-236.9 l -56.9,-57 -58.2,58.2 c -153.1,153.1 -356.3,237.5 -572.1,237.5 -215.305,0 -417.902,-83.9 -570.305,-236.3 -153,-153 -236.8942,-356 -236.2966,-571.5 0,-215 84.4026,-417.8 237.4966,-571 L 1454.7,143.301 c 20.5,-20.403 48.41,-32.199 76.8,-32.199 28.7,0 56.7,11.5 76.7,31.597 L 2731.5,1261.8 c 152.7,152.7 236.8,355.7 236.8,571.4 0.7,216 -83,419 -235.6,571.6"></path></g></g></svg>
+                                        </div>
+                                    </div>
+                                    <div class="product-switch-dot">
+                                        <div class="product-dot black"></div>
+                                        <div class="product-dot"></div>
+                                    </div>
+                                </div>
+                                <div class="product-name">2IN1 Short Men</div>
+                                <div class="product-price">
+                                    <div class="product-origin-price">$67.00</div>
+                                    <div class="product-sale-price">$54.95</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="brand">
+            <div class="grid">
+                <div class="brand-section">
+                    <div class="row">
+                        <div class="col l-2">
+                            <div class="brand-img">
+                                <img src="./assets/img/saicony.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col l-2">
+                            <div class="brand-img">
+                                <img src="./assets/img/armour.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col l-2">
+                            <div class="brand-img">
+                                <img src="./assets/img/hummel.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col l-2">
+                            <div class="brand-img">
+                                <img src="./assets/img/select.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col l-2">
+                            <div class="brand-img">
+                                <img src="./assets/img/adidas.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col l-2">
+                            <div class="brand-img">
+                                <img src="./assets/img/falke.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-box">
+            <div class="banner-box-wrapper">
+                <div class="banner-box-img">
+                    <img src="./assets/img/box-banner.jpg" alt="">
+                </div>
+                <button class="banner-box-btn">SHOP NOW</button>
+                <div class="banner-box-desc">THE PUREST FORM OF MOVEMENT</div>
+            </div>
+        </div>
+        <div class="our-blogs">
+            <div class="grid">
+                <div class="flash-sale-tittle content-tittle">
+                    <a href="">OUR BLOGS</a>
+                </div>
+                <div class="blogs-list-show">
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="blogs-item-show">
+                                <div class="blogs-img">
+                                    <img src="./assets/img/running.jpg" alt="">
+                                    <div class="blogs-date">
+                                        <span class="blogs-day">02</span>
+                                        <span class="blogs-month">Oct</span>
+                                    </div>
+                                </div>
+                                <div class="infor-blogs">
+                                    <div class="blogs-cate">NEWS</div>
+                                    <div class="blogs-tittle">
+                                        <a href="">
+                                            RUNNING SPEED AND ITS CONNECTION TO SHOES
+                                        </a>
+                                    </div>
+                                    <div class="blogs-desc">
+                                        Competitive runners have always wanted lightweight running shoes and manufacturers have always fulfilled that desire. There is some evidence that heavier shoes...
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="blogs-item-show">
+                                <div class="blogs-img">
+                                    <img src="./assets/img/blog-basketball.jpg" alt="">
+                                    <div class="blogs-date">
+                                        <span class="blogs-day">02</span>
+                                        <span class="blogs-month">Oct</span>
+                                    </div>
+                                </div>
+                                <div class="infor-blogs">
+                                    <div class="blogs-cate">NEWS</div>
+                                    <div class="blogs-tittle">
+                                        <a href="">
+                                            DO BASKETBALL SHOES MAKE YOU JUMP HIGHER?
+                                        </a>
+                                    </div>
+                                    <div class="blogs-desc">
+                                        Today I want to talk about a topic that some people bring up from time to time. I want to explain something...    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="blogs-item-show">
+                                <div class="blogs-img">
+                                    <img src="./assets/img/blogs-volleyball.jpg" alt="">
+                                    <div class="blogs-date">
+                                        <span class="blogs-day">02</span>
+                                        <span class="blogs-month">Oct</span>
+                                    </div>
+                                </div>
+                                <div class="infor-blogs">
+                                    <div class="blogs-cate">NEWS</div>
+                                    <div class="blogs-tittle">
+                                        <a href="">
+                                            A GREAT VOLLEYBALL SHOES
+                                        </a>
+                                    </div>
+                                    <div class="blogs-desc">
+                                        Best Volleyball Shoes for Setters The setters in a volleyball game are considered the leads of the team. They decide who gets...    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="grid">
+                <div class="footer-wrapper">
+                    <div class="footer-inner">
+                        <div class="row">
+                            <div class="col l-3">
+                                <div class="footer-infor">
+                                    <div class="footer-logo">
+                                        <img src="./assets/img/header-logo.png" alt="">
+                                    </div>
+                                    <div class="footer-content">
+                                        Subscribe our newsletter and get 
+                                        <br>
+                                        discount 30% off
+                                    </div>
+                                    <div class="footer-email">
+                                        <input type="text" placeholder="Your email address...">
+                                        <div class="footer-email-submit">
+                                            <i class="far fa-paper-plane"></i>
+                                        </div>
+                                    </div>
+                                    <div class="footer-social">
+                                        <div class="footer-social-icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </div>
+                                        <div class="footer-social-icon">
+                                            <i class="fab fa-dribbble"></i>
+                                        </div>
+                                        <div class="footer-social-icon">
+                                            <i class="fab fa-behance"></i>
+                                        </div>
+                                        <div class="footer-social-icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="footer-infor-block">
+                                    <div class="footer-content-tittle">
+                                        <h4>HOW CAN WE HELP YOU?</h4>
+                                    </div>
+                                    <div class="footer-content-list">
+                                        <div class="footer-content-item">Printing and embroidery</div>
+                                        <div class="footer-content-item">Frequently Asked Questions</div>
+                                        <div class="footer-content-item">Delivery time and costs</div>
+                                        <div class="footer-content-item">Privacy Policy</div>
+                                        <div class="footer-content-item">Warranty</div>
+                                        <div class="footer-content-item">Returns</div>
+                                        <div class="footer-content-item">Cookies</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="footer-infor-block">
+                                    <div class="footer-content-tittle">
+                                        <h4>CHOOSE YOUR SPORT</h4>
+                                    </div>
+                                    <div class="footer-content-list">
+                                        <div class="footer-content-item">Running</div>
+                                        <div class="footer-content-item">Basketball</div>
+                                        <div class="footer-content-item">Handball</div>
+                                        <div class="footer-content-item">Field Hockey</div>
+                                        <div class="footer-content-item">Volleyball</div>
+                                        <div class="footer-content-item">Squash</div>
+                                        <div class="footer-content-item">Tennis</div>
+                                        <div class="footer-content-item">Korfball</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-3">
+                                <div class="footer-infor-block">
+                                    <div class="footer-content-tittle">
+                                        <h4>CUSTOMER SERVICES</h4>
+                                    </div>
+                                    <div class="footer-content-list">
+                                        <div class="footer-content-item">Contact Us</div>
+                                        <div class="footer-content-item">Corporate Sale/Wholesalers</div>
+                                        <div class="footer-content-item">FAQ</div>
+                                        <div class="footer-content-item">Click&Collect</div>
+                                        <div class="footer-content-item">Size Guide</div>
+                                        <div class="footer-content-item">Shipping</div>
+                                        <div class="footer-content-item">Track Order</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <div class="footer-text-copyright">
+                        <p>© Copyright 2021 | 
+                        <a class="footer-text-link" target="blank" href="http://themeocean.net/"> YikanStore </a>
+                         By 
+                        <a class="footer-text-link" target="blank" href="http://themeocean.net/"> ThemeOcean.</a>
+                        <a class="footer-text-link" target="blank" href="https://www.shopify.com/?ref=shopifycenter">Powered by Shopify.</a>
+                        </p>
+                    </div>
+                    <div class="footer-bank">
+                        <img src="./assets/img/bank.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Js/header.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

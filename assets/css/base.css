@@ -1,0 +1,55 @@
+:root {
+    --primary-color: #57b0cf;
+    --text-color: #6bb9b4;
+    --original-price-color: #979797;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.carousel-indicators li {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.carousel-indicators li.active {
+    color: #adadad
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    animation: fadeIn linear .2s;
+    z-index: 99999999999;
+}
+
+.modal__overlay {
+    background: rgba(45, 45, 50, .8);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.modal__body {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
