@@ -14,7 +14,6 @@
 }
 
 .search{
-    position: absolute;
     position: fixed;
     padding: 40px 10px;
     width: 100%;
@@ -814,7 +813,7 @@
 
 .background {
     position: relative;
-    margin-top: 92px;
+    /* margin-top: 92px; */
 }
 
 .inner {
@@ -834,6 +833,7 @@
 }
 
 .banner-background {
+    
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

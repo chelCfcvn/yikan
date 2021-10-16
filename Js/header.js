@@ -76,11 +76,16 @@ nextDropdowmBlog.onclick = () => {
 openSearch.onclick = () => {
     blockSearch.style.transform = `translateY(${-532}px)`
     headerDown.style.marginTop = `${532}px`
-    overlay.style.display = 'block'
+    overlay.style.zIndex = `1`
+    overlay.style.display = `block`
+    headerDown.style.position = `initial`
+
 }
 
 closeSearch.onclick = () => {
     blockSearch.style.transform = `translateY(${-532}px)`
     headerDown.style.marginTop = `0`
-    overlay.style.display = 'none'
+    overlay.style.zIndex = `0`
+    overlay.style.display = `none`
+    headerDown.style.position = `fixed `
 }
